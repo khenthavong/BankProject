@@ -1,0 +1,120 @@
+/* ======================
+=========================
+AUTHOR/AUTEUR:
+    EDDY KHENTHAVONG
+=========================
+
+    TABLE OF CONTENTS 
+
+    - @media screen and (max-width: 375px)
+      - header settings
+      - haut section settings
+      - milieu class settings
+      - bas settings
+      - footer settings
+
+=========================
+=======================*/
+
+@media all and (max-device-width: 375px) {
+  /* GENERAL */
+  * {
+    text-align: center;
+  }
+
+  /* header settings */
+
+  header .header-ajust {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    background-image: url(images/5-mobile/icon-hamburger.svg);
+    background-repeat: no-repeat;
+    background-position: right 1em;
+  }
+
+  header .header-ajust img {
+    padding: 1em;
+    margin: 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #align-button {
+    display: none;
+  }
+
+  /* haut section settings */
+
+  #haut {
+    background-image: url(images/5-mobile/bg-intro-mobile.svg);
+    background-position: left -2vh top -18vh;
+  }
+
+  #haut .row {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 2.5em;
+  }
+
+  #haut-image img {
+    width: 100%;
+    position: relative;
+  }
+
+  #haut-text {
+    text-align: center;
+    padding: 1em;
+  }
+
+  #haut-text h1 {
+    font-size: 2em;
+  }
+
+  #haut-text p {
+    font-size: 0.7em;
+  }
+
+  #haut-image img {
+    size: 40%;
+  }
+  /* milieu section settings */
+
+  /* bas section settings */
+
+  #bas {
+    padding: 4.5em 0;
+  }
+
+  .author,
+  .title-bas,
+  .paragraphe {
+    text-align: left;
+  }
+
+  /* footer settings */
+
+  footer img {
+    padding-top: 5vh;
+    margin-bottom: 0em;
+  }
+
+  #info-sup {
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .logo-footer {
+    margin: 1.8em 0.3em;
+  }
+
+  .info-bas-texte .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
